@@ -1,6 +1,6 @@
-# Marci Metzger Homes — Pahrump Realtor
+# Real Estate Website
 
-A modern, responsive landing page for Marci Metzger Homes, a real estate business based in Pahrump, Nevada, operating under The Ridge Realty Group.
+A modern, responsive landing page single page website
 
 ## Tools & Technologies Used
 
@@ -19,10 +19,6 @@ A modern, responsive landing page for Marci Metzger Homes, a real estate busines
 ### Integrations
 
 - **Google Maps Embed API** — Interactive office location map
-
-### Development Tools
-
-- **Claude Code (Anthropic)** — AI-assisted development and code generation
 
 ## Project Structure
 
