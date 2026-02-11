@@ -252,7 +252,7 @@ nav.scrolled .menu-toggle span {
       rgba(13, 13, 13, 0.3) 40%,
       rgba(13, 13, 13, 0.7) 100%
     ),
-    url("../images/Hero Image.jpeg")
+    url("../images/hero section/Hero Image.jpeg")
       center/cover no-repeat;
   transform: scale(1.1);
   animation: heroZoom 20s ease-in-out infinite alternate;
