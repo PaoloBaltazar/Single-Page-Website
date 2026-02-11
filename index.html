@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marci Metzger Homes — Pahrump Realtor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Outfit:wght@200;300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- LOADER -->
+    <div class="loader" id="loader">
+      <div class="loader-text" id="loaderText"></div>
+      <div class="loader-line"></div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <nav id="navbar">
+      <a href="#" class="nav-logo">
+        <img
+          src="images/Light Logo.png"
+          alt="Marci Metzger Homes"
+          class="logo-light"
+        />
+        <img
+          src="images/Dark Logo.png"
+          alt="Marci Metzger Homes"
+          class="logo-dark"
+        />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#results">Results</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="tel:2069196886" class="nav-cta">Call Now</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <div class="hero-badge">The Ridge Realty Group</div>
+        <h1>Pahrump<em>Realtor</em></h1>
+        <p class="hero-subtitle">
+          Your Trusted Partner in Pahrump Real Estate for Nearly Three Decades
+        </p>
+        <a href="tel:2069196886" class="hero-cta">
+          <span>Schedule a Consultation</span>
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.5"
+          >
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </a>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="about-image reveal">
+        <div class="about-image-wrapper">
+          <img
+            src="images/marci-metzger-headshot.jpeg"
+            alt="Marci Metzger — Pahrump Realtor"
+          />
+        </div>
+        <div class="about-image-accent"></div>
+        <div class="about-image-tag">Learn More</div>
+      </div>
+      <div class="about-content">
+        <div class="section-label reveal">About</div>
+        <h2 class="reveal reveal-delay-1">Marci <em>Metzger</em></h2>
+        <p class="reveal reveal-delay-2">
+          With nearly three decades of experience in the Pahrump, Nevada real
+          estate market, Marci Metzger brings unmatched local expertise and a
+          genuine passion for helping clients find their perfect home.
+        </p>
+        <p class="reveal reveal-delay-3">
+          Whether you're buying your first home, selling a treasured property,
+          or exploring investment opportunities, our team at The Ridge Realty
+          Group is committed to making your real estate journey smooth,
+          informed, and rewarding.
+        </p>
+        <div class="about-stats reveal reveal-delay-4">
+          <div class="stat">
+            <div class="stat-number">28<span>+</span></div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">90<span>+</span></div>
+            <div class="stat-label">Clients in 2021</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number"><span>$</span>28.5<span>M</span></div>
+            <div class="stat-label">Closed in Sales</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <section class="marquee-section">
+      <div class="marquee-track">
+        <span class="marquee-item"
+          >Residential <span class="marquee-dot"></span> Commercial
+          <span class="marquee-dot"></span> <em>REALTOR®</em>
+          <span class="marquee-dot"></span> Ridge Realty Group
+          <span class="marquee-dot"></span> Equal Housing Opportunity
+          <span class="marquee-dot"></span> Pahrump Real Estate
+          <span class="marquee-dot"></span
+        ></span>
+        <span class="marquee-item"
+          >Residential <span class="marquee-dot"></span> Commercial
+          <span class="marquee-dot"></span> <em>REALTOR®</em>
+          <span class="marquee-dot"></span> Ridge Realty Group
+          <span class="marquee-dot"></span> Equal Housing Opportunity
+          <span class="marquee-dot"></span> Pahrump Real Estate
+          <span class="marquee-dot"></span
+        ></span>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="services-header">
+        <div>
+          <div class="section-label reveal">What We Offer</div>
+          <h2 class="reveal reveal-delay-1">Our <em>Services</em></h2>
+        </div>
+        <p class="reveal reveal-delay-2">
+          From dream homes to smart investments, we cover every corner of
+          Pahrump's real estate market with passion and precision.
+        </p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-number">01</div>
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24">
+              <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+              <polyline points="9 22 9 12 15 12 15 22" />
+            </svg>
+          </div>
+          <h3>Residential Sales</h3>
+          <p>
+            Whether you're buying or selling your residence, our team ensures
+            you get the best experience possible with top-tier market knowledge
+            and personalized attention.
+          </p>
+        </div>
+        <div class="service-card reveal reveal-delay-1">
+          <div class="service-number">02</div>
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24">
+              <rect x="2" y="7" width="20" height="14" rx="2" />
+              <path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2" />
+              <line x1="12" y1="12" x2="12" y2="12.01" />
+            </svg>
+          </div>
+          <h3>Commercial Properties</h3>
+          <p>
+            Large or small, condo or mansion—we can find it and get it at the
+            right price. Fixer-uppers or luxury, we handle it all with the same
+            dedication.
+          </p>
+        </div>
+        <div class="service-card reveal reveal-delay-2">
+          <div class="service-number">03</div>
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 6v6l4 2" />
+            </svg>
+          </div>
+          <h3>Expert Guidance</h3>
+          <p>
+            Questions about affordability, credit, or loan options? We connect
+            you with the right people and make sure you feel confident every
+            step of the way.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery" id="gallery">
+      <div class="gallery-header">
+        <div
+          class="section-label reveal"
+          style="justify-content: center; color: var(--gold-light)"
+        >
+          Portfolio
+        </div>
+        <h2 class="reveal reveal-delay-1">Photo <em>Gallery</em></h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item reveal">
+          <img src="images/Gallery 1.webp" alt="Gallery 1" />
+          <div class="gallery-overlay">
+            <span>Luxury Estate — Pahrump</span>
+          </div>
+        </div>
+        <div class="gallery-item reveal reveal-delay-1">
+          <img src="images/Gallery 2.webp" alt="Gallery 2" />
+          <div class="gallery-overlay"><span>Modern Interiors</span></div>
+        </div>
+        <div class="gallery-item reveal reveal-delay-2">
+          <img src="images/Gallery 3.webp" alt="Gallery 3" />
+          <div class="gallery-overlay"><span>Desert Living</span></div>
+        </div>
+        <div class="gallery-item reveal reveal-delay-1">
+          <img src="images/Gallery 4.webp" alt="Gallery 4" />
+          <div class="gallery-overlay"><span>Family Homes</span></div>
+        </div>
+        <div class="gallery-item reveal reveal-delay-2">
+          <img src="images/Gallery 5.webp" alt="Gallery 5" />
+          <div class="gallery-overlay"><span>Pool Properties</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section class="results" id="results">
+      <div class="section-label reveal" style="justify-content: center">
+        Track Record
+      </div>
+      <h2 class="reveal reveal-delay-1">
+        Don't Just List It—<br />Get It <em>Sold</em>
+      </h2>
+      <p class="reveal reveal-delay-2">
+        We exhaust every avenue to ensure our listings reach the fingertips of
+        every possible buyer, getting you top dollar for your home.
+      </p>
+      <div class="results-grid">
+        <div class="result-card reveal">
+          <div class="result-number">28<span>+</span></div>
+          <div class="result-label">Years of Experience</div>
+        </div>
+        <div class="result-card reveal reveal-delay-1">
+          <div class="result-number"><span>$</span>28.5<span>M</span></div>
+          <div class="result-label">Sales Volume</div>
+        </div>
+        <div class="result-card reveal reveal-delay-2">
+          <div class="result-number">90<span>+</span></div>
+          <div class="result-label">Happy Clients</div>
+        </div>
+        <div class="result-card reveal reveal-delay-3">
+          <div class="result-number">#1</div>
+          <div class="result-label">Top Residential Sales</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEARCH LISTINGS -->
+    <section class="search-section" id="search">
+      <div class="search-content">
+        <div
+          class="section-label reveal"
+          style="justify-content: center; color: var(--gold-light)"
+        >
+          Find Your Dream Home
+        </div>
+        <h2 class="reveal reveal-delay-1">Search <em>Listings</em></h2>
+        <p class="reveal reveal-delay-2">
+          Discover your dream home in Pahrump and the surrounding Nye County
+          area.
+        </p>
+        <div class="search-box reveal reveal-delay-3">
+          <div class="search-row">
+            <div class="search-field">
+              <label>Location</label>
+              <select>
+                <option>All Locations</option>
+                <option>Pahrump</option>
+                <option>Nye County</option>
+              </select>
+            </div>
+            <div class="search-field">
+              <label>Property Type</label>
+              <select>
+                <option>All Types</option>
+                <option>Residential</option>
+                <option>Commercial</option>
+                <option>Land</option>
+              </select>
+            </div>
+            <div class="search-field">
+              <label>Price Range</label>
+              <select>
+                <option>Any Price</option>
+                <option>$100k - $250k</option>
+                <option>$250k - $500k</option>
+                <option>$500k+</option>
+              </select>
+            </div>
+          </div>
+          <div class="search-row">
+            <div class="search-field">
+              <label>Bedrooms</label>
+              <select>
+                <option>Any</option>
+                <option>1+</option>
+                <option>2+</option>
+                <option>3+</option>
+                <option>4+</option>
+              </select>
+            </div>
+            <div class="search-field">
+              <label>Bathrooms</label>
+              <select>
+                <option>Any</option>
+                <option>1+</option>
+                <option>2+</option>
+                <option>3+</option>
+              </select>
+            </div>
+            <div
+              class="search-field"
+              style="display: flex; align-items: flex-end"
+            >
+              <button class="search-btn">Search Properties</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIAL -->
+    <section class="testimonial">
+      <div class="testimonial-inner reveal">
+        <div class="testimonial-quote">"</div>
+        <div class="testimonial-stars">★ ★ ★ ★ ★</div>
+        <blockquote>
+          Marci went above and beyond to help us find the perfect home in
+          Pahrump. Her knowledge of the local market is unmatched, and her
+          dedication to her clients is truly exceptional. We couldn't have asked
+          for a better experience.
+        </blockquote>
+        <div class="testimonial-author">— Happy Homeowner, Pahrump NV</div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="contact-info">
+        <div class="section-label reveal">Get in Touch</div>
+        <h2 class="reveal reveal-delay-1">
+          Let's Find Your<br /><em>Dream Home</em>
+        </h2>
+        <p class="reveal reveal-delay-2">
+          Ready to start your real estate journey? Reach out today and let's
+          make it happen together. Appointments outside office hours available
+          upon request.
+        </p>
+        <div class="contact-details">
+          <div class="contact-detail reveal reveal-delay-2">
+            <div class="contact-detail-icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"
+                />
+              </svg>
+            </div>
+            <div class="contact-detail-text">
+              <h4>Phone</h4>
+              <p>(206) 919-6886</p>
+            </div>
+          </div>
+          <div class="contact-detail reveal reveal-delay-3">
+            <div class="contact-detail-icon">
+              <svg viewBox="0 0 24 24">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+            </div>
+            <div class="contact-detail-text">
+              <h4>Office</h4>
+              <p>3190 HW-160, Suite F<br />Pahrump, Nevada 89048</p>
+            </div>
+          </div>
+          <div class="contact-detail reveal reveal-delay-4">
+            <div class="contact-detail-icon">
+              <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+            </div>
+            <div class="contact-detail-text">
+              <h4>Office Hours</h4>
+              <p>Open Daily: 8:00 AM – 7:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form reveal">
+        <h3>Send a Message</h3>
+        <form id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" placeholder="Jane" />
+            </div>
+            <div class="form-group">
+              <label>Last Name</label>
+              <input type="text" placeholder="Smith" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="jane@example.com" />
+          </div>
+          <div class="form-group">
+            <label>Phone</label>
+            <input type="tel" placeholder="(555) 123-4567" />
+          </div>
+          <div class="form-group">
+            <label>I'm Interested In</label>
+            <select>
+              <option>Buying a Home</option>
+              <option>Selling a Home</option>
+              <option>Both Buying & Selling</option>
+              <option>Investment Property</option>
+              <option>Just Exploring</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea placeholder="Tell us about your dream home..."></textarea>
+          </div>
+          <button type="submit" class="form-submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-top">
+        <div class="footer-brand">
+          <h3>Marci Metzger Homes</h3>
+          <p>The Ridge Realty Group — Pahrump, Nevada</p>
+        </div>
+        <div class="footer-logos">
+          <div class="footer-logo-item">
+            <svg viewBox="0 0 40 40">
+              <rect
+                x="4"
+                y="4"
+                width="32"
+                height="32"
+                rx="4"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+              />
+              <text
+                x="20"
+                y="26"
+                text-anchor="middle"
+                font-size="14"
+                fill="currentColor"
+                font-family="serif"
+              >
+                R
+              </text>
+            </svg>
+            <span>Realtor®</span>
+          </div>
+          <div class="footer-logo-item">
+            <svg viewBox="0 0 40 40">
+              <rect
+                x="5"
+                y="10"
+                width="30"
+                height="20"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+              />
+              <path
+                d="M10 16h20M10 22h20M10 28h12"
+                stroke="currentColor"
+                stroke-width="1.5"
+                fill="none"
+              />
+            </svg>
+            <span>Equal Housing</span>
+          </div>
+          <div class="footer-logo-item">
+            <svg viewBox="0 0 40 40">
+              <circle
+                cx="20"
+                cy="20"
+                r="15"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+              />
+              <text
+                x="20"
+                y="25"
+                text-anchor="middle"
+                font-size="10"
+                fill="currentColor"
+                font-family="serif"
+              >
+                PV
+              </text>
+            </svg>
+            <span>Chamber</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Marci Metzger Homes. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
