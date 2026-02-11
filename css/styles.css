@@ -492,6 +492,14 @@ nav.scrolled .menu-toggle span {
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: 0.1em;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.about-image-tag:hover {
+  background: var(--charcoal);
+  transform: translateX(-5px);
 }
 
 .about-content {
@@ -1302,53 +1310,134 @@ footer {
 .footer-top {
   max-width: 1400px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1.5fr 0.8fr 1fr 1fr;
+  gap: 4rem;
   padding-bottom: 3rem;
   border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
-.footer-brand h3 {
+.footer-logo {
+  height: 50px;
+  width: auto;
+  margin-bottom: 0.8rem;
+}
+
+.footer-brand .footer-tagline {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+.footer-brand .footer-description {
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.footer-socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: var(--gold);
+  border-color: var(--gold);
+  transform: translateY(-2px);
+}
+
+.footer-socials svg {
+  width: 16px;
+  height: 16px;
+}
+
+.footer-nav h4,
+.footer-contact h4,
+.footer-affiliates h4 {
   font-family: var(--font-display);
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 400;
   color: white;
   letter-spacing: 0.1em;
-  margin-bottom: 0.3rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
 }
 
-.footer-brand p {
-  font-size: 0.75rem;
+.footer-nav ul,
+.footer-contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav ul li,
+.footer-contact ul li {
+  margin-bottom: 0.8rem;
+}
+
+.footer-nav ul li a {
+  font-size: 0.95rem;
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.4);
-  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-nav ul li a:hover {
+  color: var(--gold);
+}
+
+.footer-contact ul li {
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.6;
+}
+
+.footer-contact ul li a {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-contact ul li a:hover {
+  color: var(--gold);
 }
 
 .footer-logos {
-  display: flex;
-  gap: 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
   align-items: center;
 }
 
-.footer-logo-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.4rem;
+.footer-logos img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1);
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
 }
 
-.footer-logo-item svg {
-  width: 36px;
-  height: 36px;
-  fill: rgba(255, 255, 255, 0.3);
-}
-
-.footer-logo-item span {
-  font-size: 0.55rem;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.25);
+.footer-logos img:hover {
+  opacity: 0.7;
 }
 
 .footer-bottom {
@@ -1361,9 +1450,15 @@ footer {
 }
 
 .footer-bottom p {
-  font-size: 0.7rem;
+  font-size: 0.85rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-credit {
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.25) !important;
+  letter-spacing: 0.05em;
 }
 
 .footer-links {
@@ -1372,7 +1467,7 @@ footer {
 }
 
 .footer-links a {
-  font-size: 0.7rem;
+  font-size: 0.85rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.3);
   text-decoration: none;
@@ -1518,8 +1613,8 @@ footer {
   }
 
   .footer-top {
-    flex-direction: column;
-    gap: 2rem;
+    grid-template-columns: 1fr;
+    gap: 3rem;
   }
 
   .footer-bottom {
