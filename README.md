@@ -1,7 +1,3 @@
-# Real Estate Website
-
-A modern, responsive landing page single page website
-
 ## Tools & Technologies Used
 
 ### Core
