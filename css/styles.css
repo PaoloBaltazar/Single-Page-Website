@@ -248,11 +248,11 @@ nav.scrolled .menu-toggle span {
   background:
     linear-gradient(
       180deg,
-      rgba(13, 13, 13, 0.15) 0%,
-      rgba(13, 13, 13, 0.05) 40%,
-      rgba(13, 13, 13, 0.55) 100%
+      rgba(13, 13, 13, 0.35) 0%,
+      rgba(13, 13, 13, 0.2) 40%,
+      rgba(13, 13, 13, 0.65) 100%
     ),
-    url("https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80")
+    url("../images/Hero Image.jpeg")
       center/cover no-repeat;
   transform: scale(1.1);
   animation: heroZoom 20s ease-in-out infinite alternate;
