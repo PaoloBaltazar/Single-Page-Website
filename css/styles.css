@@ -248,9 +248,9 @@ nav.scrolled .menu-toggle span {
   background:
     linear-gradient(
       180deg,
-      rgba(13, 13, 13, 0.35) 0%,
-      rgba(13, 13, 13, 0.2) 40%,
-      rgba(13, 13, 13, 0.65) 100%
+      rgba(13, 13, 13, 0.45) 0%,
+      rgba(13, 13, 13, 0.3) 40%,
+      rgba(13, 13, 13, 0.7) 100%
     ),
     url("../images/Hero Image.jpeg")
       center/cover no-repeat;
